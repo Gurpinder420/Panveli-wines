@@ -399,13 +399,7 @@
       z-index: 1;
       transition: color var(--transition);
     }
-    /* .cat-count {
-      font-size: 0.78rem;
-      color: var(--gray);
-      position: relative;
-      z-index: 1;
-      transition: color var(--transition);
-    } */
+   
 
     /* ─── Featured Products ─── */
     #products { background: var(--off-white); }
@@ -938,6 +932,10 @@
       .contact-form-wrap { padding: 28px 22px; }
     }
     @media (max-width: 480px) {
+      #navbar
+      {
+        width: 100%;
+      }
       .categories-grid { grid-template-columns: repeat(2, 1fr); }
       .hero-title { font-size: 2.2rem; }
       .hero-text
