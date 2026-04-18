@@ -951,15 +951,12 @@
       {
         width: 100%;
       }
+      .about-img-float
+      {
+        padding: 5px;
+        width: 160px;
+        margin-right: 20px;
+      }
     }
 
-    /* ─── Utility animations ─── */
-    @keyframes gradientShift {
-      0%,100% { background-position: 0% 50%; }
-      50%      { background-position: 100% 50%; }
-    }
-    .animated-gradient {
-      background: linear-gradient(270deg, var(--wine), #A8435F, #7B1E3B, #C9A84C);
-      background-size: 300% 300%;
-      animation: gradientShift 8s ease infinite;
-    }
+   
